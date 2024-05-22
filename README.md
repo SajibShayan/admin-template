@@ -28,6 +28,7 @@ Then run the following commands
 Credentials for Admin is
  - Email: admin@admin.com
  - Password: 123456
+ 
 
 
  **Also This Project runs on php 8.1+** 
