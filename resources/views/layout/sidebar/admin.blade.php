@@ -8,6 +8,14 @@
                 </a>
             </li>
         @endcan
+        @can("viewAny", App\Models\Category::class)
+            <li class="nav-item">
+                <a href="{{route("categories.index")}}" class="nav-link {{ $category_menu ?? "" }}">
+                    <i class="fas fa-folder"></i> 
+                    <p>Categories</p>
+                </a>
+            </li>
+        @endcan
         @can("viewAny", App\Models\Role::class)
             <li class="nav-item">
                 <a href="{{route("roles.index")}}" class="nav-link {{ $role_menu ?? "" }}">

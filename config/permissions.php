@@ -7,6 +7,12 @@ return [
             "update",
             "delete"
         ],
+        "categories" => [
+            "view",
+            "create",
+            "update",
+            "delete",
+        ],
         "roles" => [
             "view",
             "create",
